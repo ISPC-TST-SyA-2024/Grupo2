@@ -12,4 +12,3 @@ Hardware de Dispositivos IoT.
 
 En el presente módulo, las presentaciones se realizaran en formato pdf.
 
-ver cambios
