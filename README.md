@@ -11,7 +11,7 @@
 
 - Integrante 1: GitHub
 - Huk, Romina vanesa - GitHub https://github.com/RoHu17
-- Integrante 1: GitHub
+- Brizuela, Laura Analia - GitHub https://github.com/gerbena03
 - Integrante 1: GitHub
 - Integrante 1: GitHub
 - Integrante 1: GitHub
