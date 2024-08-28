@@ -12,7 +12,7 @@
 - Huk, Romina vanesa - [GitHub: RoHu17](https://github.com/RoHu17)
 - Brizuela, Laura Analia - [GitHub: gerbena03](https://github.com/gerbena03)
 - Roldán, Patricio Leandro -  [GitHub: pleroldan](https://github.com/pleroldan)
-- Pantoja, Paola Natalia Alejandra - ([GitHub](https://github.com/PaolaaPantoja))
+- Pantoja, Paola Natalia Alejandra - ([GitHub: PaolaaPantoja](https://github.com/PaolaaPantoja))
 - Integrante 1: GitHub
 - Integrante 1: GitHub
 
