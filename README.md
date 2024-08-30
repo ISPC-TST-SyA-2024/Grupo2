@@ -14,7 +14,7 @@
 - Roldán, Patricio Leandro -  [GitHub: pleroldan](https://github.com/pleroldan)
 - Pantoja, Paola Natalia Alejandra - [GitHub: PaolaaPantoja](https://github.com/PaolaaPantoja)
 - Paez, Tiziano Adrian - [GitHub: tpaez](https://github.com/tpaez)
-- Integrante 1: GitHub
+- Paz, Rodolfo: [GitHub: Domi74](https://github.com/Domi74)
 
 ##
 
