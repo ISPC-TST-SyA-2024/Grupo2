@@ -13,7 +13,7 @@
 - Brizuela, Laura Analia - [GitHub: gerbena03](https://github.com/gerbena03)
 - Roldán, Patricio Leandro -  [GitHub: pleroldan](https://github.com/pleroldan)
 - Pantoja, Paola Natalia Alejandra - [GitHub: PaolaaPantoja](https://github.com/PaolaaPantoja)
-- Integrante 1: GitHub
+- Paez, Tiziano Adrian - [GitHub: tpaez](https://github.com/tpaez)
 - Integrante 1: GitHub
 
 ##
