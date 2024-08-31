@@ -1,4 +1,4 @@
-![alt text](src/IoT.jpg)
+![src/IoT.jpg](https://github.com/ISPC-TST-SyA-2024/Grupo2/blob/main/src/IoT.jpg)
 
 ## <p style="text-align: center;">SENSORES Y ACTUADORES</p>
 
