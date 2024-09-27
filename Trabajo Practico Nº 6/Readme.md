@@ -15,6 +15,7 @@
 - Pantoja, Paola Natalia Alejandra - [GitHub: PaolaaPantoja](https://github.com/PaolaaPantoja)
 - Paez, Tiziano Adrian - [GitHub: tpaez](https://github.com/tpaez)
 - Paz, Rodolfo: [GitHub: Domi74](https://github.com/Domi74)
+- Gutiérrez, Emma: [GitHub: Emygut](https://github.com/Emygut)
 
 
 --- 
