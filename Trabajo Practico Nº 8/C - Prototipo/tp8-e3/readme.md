@@ -69,7 +69,12 @@ void loop() {
 
 ### **Simulación en Wokwi**
 
-- Utiliza el siguiente **JSON** para configurar la simulación en Wokwi, donde se incluye un deslizador y una pantalla LCD I2C conectados al ESP32.
+- Se utilizó el siguiente **JSON** para configurar la simulación en Wokwi, donde se incluye un deslizador y una pantalla LCD I2C conectados al ESP32.
+
+  
+<div style="text-align: center;">
+  <img src="https://github.com/ISPC-TST-SyA-2024/Grupo2/blob/main/Trabajo%20Practico%20N%C2%BA%208/C%20-%20Prototipo/tp8-e3/lib/Wokwi.png" alt="Wokwi" style="width: 50%;">
+</div>  
 
 ```json
 
