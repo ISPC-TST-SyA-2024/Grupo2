@@ -35,10 +35,10 @@ Lectura del sensor(En este caso al no encontrarse disponible en la biblioteca de
 
 ### Potenciómetro
 
-El ```cpp analogRead(sensorPin) ``` Lee el valor del potenciómetro, que simula el sensor de humedad. El valor varía de 0 a 4095 en el ESP32.
+El ``` analogRead(sensorPin) ``` Lee el valor del potenciómetro, que simula el sensor de humedad. El valor varía de 0 a 4095 en el ESP32.
 ### Monitor serial
 
-```cpp Serial.println(sensorValue)``` Imprime el valor en el serial "Serial Monitor" para que se vean los cambios en tiempo real
+``` Serial.println(sensorValue)``` Imprime el valor en el serial "Serial Monitor" para que se vean los cambios en tiempo real
 
 ### Control del LED
 
