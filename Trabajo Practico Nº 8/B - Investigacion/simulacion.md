@@ -1,34 +1,34 @@
-https://wokwi.com/projects/412083807539505153
+https://wokwi.com/projects/412103123561844737
 
 Link correspondiente a la tarea 1, realizada en la plataforma de wokwi.
 
 Código utilizado para la simulación
-from machine import Pin, ADC
-import time
+```cpp
+int sensorPin = 34;  // Pin del sensor (potenciómetro) en el ESP32
+int sensorValue = 0; // Variable para almacenar el valor leído
+int ledPin = 13;     // Pin del LED
+int threshold = 2000;  // Umbral de humedad
 
-sensorPin = 34  # Pin del sensor (potenciómetro) en el ESP32
-ledPin = 17     # Pin del LED
-threshold = 2000  # Umbral de humedad
+void setup() {
+  pinMode(ledPin, OUTPUT);  // Configurar el LED como salida
+  Serial.begin(115200);     // Iniciar la comunicación serial
+}
 
-# Configurar el pin del LED como salida
-led = Pin(ledPin, Pin.OUT)
+void loop() {
+  sensorValue = analogRead(sensorPin);  // Leer el valor analógico del sensor
+  Serial.print("Humedad del suelo (simulada): ");
+  Serial.println(sensorValue);  // Mostrar el valor en el monitor serial
+  
+  // Control del LED según el valor del sensor
+  if (sensorValue > threshold) {
+    digitalWrite(ledPin, HIGH);  // Encender el LED si el suelo está seco
+  } else {
+    digitalWrite(ledPin, LOW);   // Apagar el LED si el suelo está húmedo
+  }
 
-# Configurar el pin del sensor como entrada analógica
-sensor = ADC(Pin(sensorPin))
-sensor.width(ADC.WIDTH_12BIT)  # Ajusta la resolución de lectura
-sensor.atten(ADC.ATTN_11DB)    # Ajusta la atenuación para rango de voltaje (0 - 3.6V)
+  delay(1000);  // Esperar 1 segundo entre lecturas
+}
 
-while True:
-    sensorValue = sensor.read()  # Leer el valor analógico del sensor (0-4095)
-    print("Humedad del suelo (simulada):", sensorValue)
-    
-    # Control del LED según el valor del sensor
-    if sensorValue > threshold:
-        led.on()  # Encender el LED si el suelo está seco
-    else:
-        led.off()  # Apagar el LED si el suelo está húmedo
-
-    time.sleep(1)  # Esperar 1 segundo entre lecturas
 ```
 
 ## EXPLICACIÓN DEL CÓDIGO
