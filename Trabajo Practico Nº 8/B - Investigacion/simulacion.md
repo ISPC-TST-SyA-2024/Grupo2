@@ -33,14 +33,14 @@ void loop() {
 ## EXPLICACIÓN DEL CÓDIGO
 Lectura del sensor(En este caso al no encontrarse disponible en la biblioteca de **Wokwi** el sensor resisitivo de humeddad YL-69 HL-69 o FC-28 se simula el comportamiento de los mismos con un potenciómetro, el cual se ajusta manualmente para los valores de humedad, debido a que el mismo permite cambiar la resistencia simulando de manera similar el trabajo que realiza el sensor de humedad resistivo)
 
-### Potenciómetro
+- ### Potenciómetro
 
 El ``` analogRead(sensorPin) ``` Lee el valor del potenciómetro, que simula el sensor de humedad. El valor varía de 0 a 4095 en el ESP32.
-### Monitor serial
+- ### Monitor serial
 
 ``` Serial.println(sensorValue)``` Imprime el valor en el serial "Serial Monitor" para que se vean los cambios en tiempo real
 
-### Control del LED
+- ### Control del LED
 
 El LED se enciende si el valor del sensor es mayo que el umbral(en este caso 2000), lo que significa que el suelo está "seco".
 Si el valor del sensor es menor que el umbral,  el LED se apaga, lo que indica que el suelo está "húmedo".
