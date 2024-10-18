@@ -1,4 +1,5 @@
-https://wokwi.com/projects/new/esp32
+[SIMULACIÓN DEL SENSOR DE HUMEDDAD RESISTIVO]([https://github.com](https://wokwi.com/projects/new/esp32))
+
 
 Link correspondiente a la tarea 1, realizada en la plataforma de wokwi.
 
