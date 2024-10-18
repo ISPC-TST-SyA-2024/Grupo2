@@ -1,4 +1,4 @@
-[Simulación del sensor de humedad resistivo]([https://github.com](https://wokwi.com/projects/new/esp32))
+[Simulación del sensor de humedad resistivo] ([https://github.com](https://wokwi.com/projects/new/esp32))
 
 
 Link correspondiente a la tarea 1, realizada en la plataforma de wokwi.
