@@ -31,7 +31,7 @@ void loop() {
 ```
 
 ## EXPLICACIÓN DEL CÓDIGO
-Lectura del sensor(En este caso al no encontrarse disponible en la biblioteca de Wokwi el sensor resisitivo de humeddad YL-69 HL-69 o FC-28 se simula el comportamiento de los mismos con un potenciómetro, el cual se ajusta manualmente para los valores de humedad, debido a que el mismo permite cambiar la resistencia simulando de manera similar el trabajo que realiza el sensor de humedad resistivo)
+Lectura del sensor(En este caso al no encontrarse disponible en la biblioteca de **Wokwi** el sensor resisitivo de humeddad YL-69 HL-69 o FC-28 se simula el comportamiento de los mismos con un potenciómetro, el cual se ajusta manualmente para los valores de humedad, debido a que el mismo permite cambiar la resistencia simulando de manera similar el trabajo que realiza el sensor de humedad resistivo)
 
 ### Potenciómetro
 
