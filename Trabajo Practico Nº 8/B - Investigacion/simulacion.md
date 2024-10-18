@@ -1,8 +1,8 @@
 https://wokwi.com/projects/new/esp32
 
-link correspondiente a la tarea 1, realizada en la plataforma de wokwi.
+Link correspondiente a la tarea 1, realizada en la plataforma de wokwi.
 
-código utilizado para la simulación
+Código utilizado para la simulación
 ```cpp
 int sensorPin = 34;  // Pin del sensor (potenciómetro) en el ESP32
 int sensorValue = 0; // Variable para almacenar el valor leído
