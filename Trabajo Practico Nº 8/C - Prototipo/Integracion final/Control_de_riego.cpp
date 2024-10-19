@@ -12,8 +12,8 @@
 
 LiquidCrystal_I2C lcd(0x27, 20, 4);      // Configuración de la pantalla LCD 20x4
 
-const int ALTURA_TANQUE_MIN = 20;        // Altura mínima del tanque (sensor a máximo nivel de agua)
-const int ALTURA_TANQUE_MAX = 141;       // Altura máxima del tanque (tanque vacío)
+const int ALTURA_TANQUE_MIN = 10;        // Altura mínima del tanque (sensor a máximo nivel de agua)
+const int ALTURA_TANQUE_MAX = 141;       // Altura máxima del tanque (tanque vacío) basandome en el general de los tanques de 1000L tienen una altura de 141 cm por 100 cm de diametro
 
 bool releRiegoSector1Activo = false;     // Estado del relé del riego para el sector 1
 bool releRiegoSector2Activo = false;     // Estado del relé del riego para el sector 2
