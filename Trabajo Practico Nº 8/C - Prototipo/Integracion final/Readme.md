@@ -64,9 +64,10 @@ void setup() {
   delay(2000);                                       // Esperar 2 segundos antes de continuar
 }
 ``` 
-## Medición de Distancia
+## Medición de Nivel de Tanque
 
-La función `medirDistancia()` utiliza el sensor HC-SR04 para calcular la distancia desde la superficie del agua hasta el sensor, lo que se usa para determinar el nivel del tanque
+La función `medirDistancia()` utiliza el sensor HC-SR04 para calcular la distancia desde la superficie del agua hasta el sensor, lo que se usa para determinar el nivel del tanque.
+
 
 ```cpp
 long medirDistancia() {
@@ -84,6 +85,13 @@ long medirDistancia() {
   return distancia;
 }
 
+```
+
+En el programa se calcula un tanque de 1000 litros, lo que corresponde a un objeto de 141 cm de alto. Se definió que la distancia mínima donde estará ubicado el sensor será de 20 cm desde el nivel máximo de agua en el tanque. Esto se refleja en las siguientes constantes:
+
+```cpp
+const int ALTURA_TANQUE_MIN = 20;        // Altura mínima del tanque (sensor a máximo nivel de agua)
+const int ALTURA_TANQUE_MAX = 141;       // Altura máxima del tanque (tanque vacío)
 ```
 
 ## Control del Riego
