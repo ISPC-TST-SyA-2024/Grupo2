@@ -7,7 +7,7 @@
 
 
 TX código arduino TX :
-´´´cpp
+  ```cpp  
  #include <SoftwareSerial.h>
 
 SoftwareSerial mySerial(10, 11); // RX en pin 10, TX en pin 11
@@ -34,9 +34,10 @@ void loop() {
 
   delay(2000);
 } 
-´´´
+  ```
+
 RX código arduino RX  
-´´´cpp
+ ```cpp  
 #include <SoftwareSerial.h>
 
 SoftwareSerial mySerial(10, 11); // RX en pin 10, TX en pin 11
@@ -61,4 +62,5 @@ void loop() {
   Serial.println("Esperando mensaje...");
   delay(500); // Un delay menor para permitir que el receptor procese
 }
-´´´
+  ```
+
