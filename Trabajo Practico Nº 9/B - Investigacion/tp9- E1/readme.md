@@ -48,19 +48,30 @@ void setup() {
   Serial.println("Receptor listo");
 }
 
-void loop() {
-  if (mySerial.available()) {
+#include <SoftwareSerial.h>
+
+SoftwareSerial mySerial(10, 11); // RX en pin 10, TX en pin 11
+
+void setup() {
+ Serial.begin(9600);
+ mySerial.begin(9600);
+ Serial.println("Receptor listo");
+}
+
+if (mySerial.available()) {
+    // Leer el mensaje del transmisor
     String mensajeRecibido = mySerial.readStringUntil('\n');
     Serial.println("Receptor recibió: " + mensajeRecibido);
 
+    // Responder al transmisor
     String respuesta = "Mensaje recibido por RX";
     mySerial.println(respuesta);
     Serial.println("Receptor envía: " + respuesta);
+  } else {
+    Serial.println("Esperando mensaje...");  // Imprimir si no hay datos disponibles
   }
- 
-  // Agrega un Serial.println para verificar que el loop se ejecuta
-  Serial.println("Esperando mensaje...");
-  delay(500); // Un delay menor para permitir que el receptor procese
+
+  delay(500); // Pequeña espera para evitar sobrecargar el loop
 }
   ```
 
