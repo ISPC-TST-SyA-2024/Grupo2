@@ -1,0 +1,17 @@
+[
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "C:\\Program Files\\Arduino\\hardware\\arduino\\avr\\cores\\arduino"
+  },
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "C:\\Program Files\\Arduino\\hardware\\arduino\\avr\\variants\\standard"
+  },
+  {
+    "Sourcefile": "d:\\Laura\\Carrera Telecomunicaciones\\PRIMER AÑO\\sensores y actuadores\\Grupo2\\build\\sketch\\sketch.ino.cpp",
+    "Include": "",
+    "Includepath": null
+  }
+]
