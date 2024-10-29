@@ -27,7 +27,7 @@ void loop()
     {  
         if( dato[0]=='1') // SI DATO ES DE VALOR 1
         {
-            Serial.println("GRUPO 3");// ENVIO MENSAJE POR MONITOR SERIE
+            Serial.println("GRUPO 2");// ENVIO MENSAJE POR MONITOR SERIE
            // digitalWrite(13, HIGH); //Encendemos el Led DEL PIN 13
             delay(500); // SE ENCIENDE POR DOS SEGUNDOS
         }
