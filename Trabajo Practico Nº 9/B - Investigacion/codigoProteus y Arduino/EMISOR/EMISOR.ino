@@ -36,10 +36,7 @@ void loop()
      vw_wait_tx();    // ESPERA PARA ENVIAR
   
       }
-      else 
-      {
-        Serial.println(" CARACTER INCORRECTO");
-      }
+      
    
     // ENVIO MENSAJE POR EL MONITOR SERIE     
     delay(500);// DELAY DE 1 SEGUNDO 
