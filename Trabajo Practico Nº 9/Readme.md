@@ -28,8 +28,7 @@
 - D presentacion: descripcion de lo trabajado.
  ###       Actividad
 1) Implementen una simulación de una Conexión en RF(radio frecuencia)
-en Wokwi o Proteus, utilizando ESP32 ó ARDUINO con las siguientes
-especificaciones:
+en Wokwi o Proteus, utilizando ESP32 ó ARDUINO con las siguientes especificaciones:
 a. Un ESP32 ó ARDUINO en modo Transmisor (TX).
 b. Un ESP32 ó ARDUINO en modo Receptor (RX).
 2) Salida a una pantalla LCD de 16x2 ó Monitor Serial ó Terminal Virtual,
@@ -42,11 +41,12 @@ el orden de las mismas a seguir, como se especifica en el repositorio del
 Proyecto Final (Prof. Gonzalo Vera).
 5) Recordar que se valorará el trabajo del Grupo e individual de cada
 participante en GitHub.
-Referencias modelos:
- https://www.youtube.com/watch?v=USpYs0RjUbo
- https://www.youtube.com/watch?v=DOtZwD23ePQ&t=238s
- https://www.youtube.com/watch?v=LrEEN4Ji-Ec
- https://www.youtube.com/watch?v=MHJXhq-yjCU
- https://www.youtube.com/watch?v=8JX2_kN6xvo
- https://www.youtube.com/watch?v=YQ7aLHCTeeE 
+
+ ###  Referencias modelos:
+# https://www.youtube.com/watch?v=USpYs0RjUbo
+# https://www.youtube.com/watch?v=DOtZwD23ePQ&t=238s
+# https://www.youtube.com/watch?v=LrEEN4Ji-Ec
+# https://www.youtube.com/watch?v=MHJXhq-yjCU
+# https://www.youtube.com/watch?v=8JX2_kN6xvo
+# https://www.youtube.com/watch?v=YQ7aLHCTeeE 
 
